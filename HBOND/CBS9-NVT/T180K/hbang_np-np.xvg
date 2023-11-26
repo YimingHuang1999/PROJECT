@@ -1,0 +1,47 @@
+# This file was created Fri Nov 17 21:11:05 2023
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2021.4 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4/bin/gmx
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4
+# Working dir:  /lustre03/project/6000925/yimingh/CBS9/T180K/EXTEND
+# Command line:
+#   gmx hbond -f nvt.xtc -s nvt.tpr -num hbnum.xvg -ac hbac.xvg -dist hbdist.xvg -ang hbang.xvg -hx hbhelix.xvg -don donor.xvg -dan danum.xvg -life hblife.xvg -nhbdist nhbdist.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Hydrogen Bond Distribution"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (\SO\N)"
+@    yaxis  label ""
+@TYPE xy
+       0.5 0.00900369
+       1.5  0.0264812
+       2.5  0.0423306
+       3.5  0.0557189
+       4.5  0.0659244
+       5.5  0.0728576
+       6.5  0.0763507
+       7.5  0.0768356
+       8.5   0.074609
+       9.5  0.0703497
+      10.5  0.0647144
+      11.5  0.0583198
+      12.5  0.0514369
+      13.5  0.0446692
+      14.5  0.0381442
+      15.5  0.0322914
+      16.5  0.0269471
+      17.5  0.0223407
+      18.5  0.0183653
+      19.5  0.0150105
+      20.5   0.012246
+      21.5 0.00991524
+      22.5 0.00808489
+      23.5 0.00654187
+      24.5 0.00529296
+      25.5 0.00432378
+      26.5 0.00353497
+      27.5 0.00291386
+      28.5 0.00241882
+      29.5  0.0020266

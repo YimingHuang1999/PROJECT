@@ -1,0 +1,47 @@
+# This file was created Sat Nov 18 00:13:25 2023
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2021.4 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4/bin/gmx
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4
+# Working dir:  /lustre03/project/6000925/yimingh/CBS9/T200K/EXTEND
+# Command line:
+#   gmx hbond -f nvt.xtc -s nvt.tpr -num hbnum.xvg -ac hbac.xvg -dist hbdist.xvg -ang hbang.xvg -hx hbhelix.xvg -don donor.xvg -dan danum.xvg -life hblife.xvg -nhbdist nhbdist.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Hydrogen Bond Distribution"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (\SO\N)"
+@    yaxis  label ""
+@TYPE xy
+       0.5 0.00791102
+       1.5  0.0233772
+       2.5  0.0372015
+       3.5  0.0489259
+       4.5  0.0580208
+       5.5   0.064028
+       6.5  0.0676617
+       7.5  0.0684486
+       8.5  0.0671896
+       9.5  0.0636123
+      10.5  0.0593714
+      11.5  0.0549156
+      12.5  0.0497551
+      13.5  0.0442352
+      14.5  0.0396208
+      15.5  0.0348538
+      16.5   0.030499
+      17.5   0.026621
+      18.5  0.0232973
+      19.5  0.0200993
+      20.5  0.0175109
+      21.5  0.0155425
+      22.5  0.0133886
+      23.5  0.0119229
+      24.5  0.0106064
+      25.5 0.00939903
+      26.5 0.00880594
+      27.5 0.00785582
+      28.5 0.00776773
+      29.5 0.00755516

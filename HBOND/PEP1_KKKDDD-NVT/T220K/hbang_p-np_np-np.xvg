@@ -1,0 +1,47 @@
+# This file was created Fri Nov 17 21:48:08 2023
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2021.4 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4/bin/gmx
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4
+# Working dir:  /lustre03/project/6000925/yimingh/PEP1_KKKDDD/T220K/EXTEND
+# Command line:
+#   gmx hbond -f nvt.xtc -s nvt.tpr -num hbnum.xvg -ac hbac.xvg -dist hbdist.xvg -ang hbang.xvg -hx hbhelix.xvg -don donor.xvg -dan danum.xvg -life hblife.xvg -nhbdist nhbdist.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Hydrogen Bond Distribution"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (\SO\N)"
+@    yaxis  label ""
+@TYPE xy
+       0.5 0.00862628
+       1.5  0.0253313
+       2.5  0.0401609
+       3.5  0.0526903
+       4.5  0.0613507
+       5.5  0.0677425
+       6.5  0.0700292
+       7.5  0.0696299
+       8.5   0.067714
+       9.5  0.0633727
+      10.5  0.0580172
+      11.5  0.0522917
+      12.5  0.0468832
+      13.5   0.041351
+      14.5  0.0360669
+      15.5   0.031373
+      16.5  0.0273629
+      17.5  0.0239265
+      18.5  0.0209188
+      19.5  0.0182937
+      20.5  0.0164103
+      21.5  0.0145269
+      22.5  0.0133526
+      23.5  0.0120896
+      24.5  0.0112196
+      25.5  0.0106111
+      26.5   0.010039
+      27.5 0.00975617
+      28.5 0.00952401
+      29.5 0.00933781

@@ -1,0 +1,47 @@
+# This file was created Fri Nov 17 21:06:43 2023
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2021.4 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4/bin/gmx
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/MPI/gcc9/openmpi4/gromacs/2021.4
+# Working dir:  /lustre03/project/6000925/yimingh/GAD1/T180K/EXTEND
+# Command line:
+#   gmx hbond -f nvt.xtc -s nvt.tpr -num hbnum.xvg -ac hbac.xvg -dist hbdist.xvg -ang hbang.xvg -hx hbhelix.xvg -don donor.xvg -dan danum.xvg -life hblife.xvg -nhbdist nhbdist.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Hydrogen Bond Distribution"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (\SO\N)"
+@    yaxis  label ""
+@TYPE xy
+       0.5  0.0021943
+       1.5 0.00677734
+       2.5  0.0112585
+       3.5  0.0157906
+       4.5  0.0219986
+       5.5  0.0265724
+       6.5  0.0319794
+       7.5  0.0364421
+       8.5  0.0402566
+       9.5  0.0433768
+      10.5  0.0455156
+      11.5  0.0455665
+      12.5  0.0458396
+      13.5  0.0455619
+      14.5   0.044423
+      15.5  0.0424278
+      16.5  0.0418214
+      17.5  0.0411733
+      18.5  0.0394187
+      19.5  0.0385855
+      20.5   0.037692
+      21.5   0.036493
+      22.5  0.0354607
+      23.5  0.0350857
+      24.5  0.0346644
+      25.5  0.0332247
+      26.5  0.0319563
+      27.5  0.0305906
+      28.5  0.0290907
+      29.5   0.028762
