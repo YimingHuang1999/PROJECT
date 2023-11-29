@@ -74,7 +74,7 @@ def main():
         plt.legend(ncol=2,frameon=True, fontsize=5, numpoints=1)
         
         plt.xlabel('r$_{Cα}$ (nm)')
-        plt.ylabel('P(r$_{Cα}$)')
+        plt.ylabel('g(r$_{Cα}$)')
         plt.savefig("hist%d.pdf" %(i+1), format="pdf")
         plt.close()
 
@@ -92,7 +92,7 @@ def main():
     #plt.title('T240 to T260K',fontweight ="bold")
     plt.title('T240K  ',fontsize=8, loc='right', y=1.0, pad=-10)
     #plt.xlabel('r$_{Cα}$ (nm)')
-    plt.ylabel('P(r$_{Cα}$)')
+    plt.ylabel('g(r$_{Cα}$)')
         #plt.plot(x,density(x))
 
 #########################################################################
@@ -175,7 +175,7 @@ def main():
     #plt.title('T260K',fontweight ="bold")
     plt.title('T260K  ',fontsize=8, loc='right', y=1.0, pad=-10)
     plt.xlabel('r$_{Cα}$ (nm)')
-    plt.ylabel('P(r$_{Cα}$)')
+    plt.ylabel('g(r$_{Cα}$)')
         #plt.plot(x,density(x))
 
 ###############################################################################
@@ -185,7 +185,7 @@ def main():
     #plt.xlim(0.7,3.3)
     #plt.legend(ncol=2,frameon=True, fontsize=5, numpoints=1)
     #plt.title('Location of ${Cα}$ at %s K\n'%(temperature),fontweight ="bold")
-    plt.savefig("%s.pdf" %temperature[:-3], format="pdf")
+    plt.savefig("CA-T240K-ADN-T260K.pdf", format="pdf")
     plt.show()
     plt.close()
         
